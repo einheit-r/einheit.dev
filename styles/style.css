@@ -18,7 +18,7 @@ header {
     justify-content: space-around;
     box-sizing: border-box;
     text-align: center;
-    width: 100%;
+    width: 900px;
     margin-bottom: 1vh;
 }
 
@@ -89,9 +89,14 @@ main {
     display:flex;
     flex-direction:column;
     text-align: center;
+    width: 900px;
 }
 
 .email {
     color:rgb(72 213 151);
+}
+
+.footer {
+    font-size: smaller;
 }
 
