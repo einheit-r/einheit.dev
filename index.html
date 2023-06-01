@@ -1,40 +1,82 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>einheit.dev</title>
-    <meta name="author" content="einheit">
-    <meta 
-        name="description" 
-        content="A personal website for exploring the world of system administration."
-    >
-    <link rel="icon" href="hard-drive.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
-</head>
+    <meta
+      name="description"
+      content="A personal website."
+    />
+    <link rel="icon" href="images/hard-drive.svg" />
 
-<body>
-    <header>
-        <div class="title"><h1>einheit</h1></div>
-        <div class ="menu">
-            <div class="menu-home"><a href="index.html">Home</a></div>
-            <div class="menu-about"><a href="">About</a></div>
-            <div class="menu-projects"><a href="projects.html">Projects</a></div>
-            <div class="menu-contact"><a href="">Contact</a></div>
-        </div>
-    </header>
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="pico-1.5.10/css/pico.min.css" />
 
-    <main>
-        <p>Hello and welcome to my site. It's still a work in progress.</p>
-        <p>Contact me at <span class=email>main@einheit.dev</span></p>
+    <!-- Custom styles  -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <!-- Hero -->
+    <div class="hero" >
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <strong class="my-title"><a href="#">EINHEIT</a></strong>
+          </li>
+        </ul>
+        <ul>
+            <li><a href="#">Notes</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+      </nav>
+      <header class="container">
+        <p class="header-line">Hello and welcome to my site. It's actively being built and may not work correctly.</p>
+      </header>
+    </div>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <section>
+        <hr>
+        <h3><a href="about.html">About</a></h3>
+        <p>
+          I'm an experienced desktop IT helpdesker looking to move into system administration.
+        </p>
+      </section>
+      <hr>
+      <section>
+        <h3><a href="notes.html">Notes</a></h3>
+        <p>
+          Note 1
+          <br>
+          Note 2
+        </p>
+      </section>
+      <hr>
+      <section>
+        <h3><a href="projects.html">Projects</a></h3>
+        <p>
+          Website
+          <br>
+          Project 2
+        </p>
+      </section>
+      <hr>
     </main>
+    <!-- ./ Main -->
 
-    <footer>
-        <p>einheit 2023</p>
+    <!-- Footer -->
+    <footer class="container">
+      <small>Last Updated: 2023-05-28</small>
+      <br>
+      <small>
+        Built with <a href="https://picocss.com">Pico</a> •
+        <a href="https://github.com/einheit-r/einheit.dev">Source Code</a>
+      </small>
     </footer>
-
-</body>
-
+  </body>
 </html>

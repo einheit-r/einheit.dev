@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>einheit.dev - Website</title>
+    <meta
+      name="description"
+      content="A personal website."
+    />
+    <link rel="icon" href="images/hard-drive.svg" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="pico-1.5.10/css/pico.min.css" />
+
+    <!-- Custom styles  -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <!-- Hero -->
+    <div class="hero" >
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <strong class="my-title"><a href="index.html">EINHEIT</a></strong>
+          </li>
+        </ul>
+        <ul>
+            <li><a href="#">Notes</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+      </nav>
+      <header class="container">
+        <p class="header-line">This website.</p>
+      </header>
+    </div>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <section>
+        <hr>
+        <h3>About</h3>
+        <p>
+          My personal website used mainly for developing sysadmin skills. I'm still working out layout, styling, and content. Please let me know if you have any feedback.
+        </p>
+        <p>
+          <a href="https://github.com/einheit-r/einheit.dev">GitHub</a>
+        </p>
+      </section>
+      <hr>
+      <section>
+        <h3>Platform</h3>
+        <p>
+          <span class="sub-head">Hardware</span>
+          <br>
+          AWS EC2 Instance
+          <br>
+          2 vCPUS, 2GB memory, 30GB storage
+          <br>
+          ~$15/month
+        </p>
+        <p>
+          <span class="sub-head">OS</span>
+          <br>
+          Red Hat Enterprise Linux 9.2
+        </p>
+        <p>
+          <span class="sub-head">Web Server</span>
+          <br>
+          NGINX with Let's Encrypt for https
+        </p>
+        <p>
+          My main goal when choosing a stack was to get experience with technologies I'd be most likely to use when employed.
+        </p>
+      </section>
+      <hr>
+      <section>
+        <h3>To Do</h3>
+        <p>
+          Containerize - Move everything to a container with <a href="https://podman.io/">Podman</a>
+          <br>
+          Git Server - Looking at <a href="https://about.gitlab.com/">GitLab</a>, <a href="https://gitea.io/en-us/">Gitea</a>, and <a href="https://github.com/charmbracelet/soft-serve">Soft Serve</a>
+          <br>
+          Futher Learning - Javascript, WebAssembly
+        </p>
+      </section>
+      <hr>
+    </main>
+    <!-- ./ Main -->
+
+    <!-- Footer -->
+    <footer class="container">
+      <small>Last Updated: 2023-05-28</small>
+      <br>
+      <small>
+        Built with <a href="https://picocss.com">Pico</a> •
+        <a href="https://github.com/einheit-r/einheit.dev">Source Code</a>
+      </small>
+    </footer>
+  </body>
+</html>
